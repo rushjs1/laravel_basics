@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+}
+body,
+html {
+    height: 100%;
+}
+.content {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+
+.home,
+.contact,
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 4.5em;
+    margin-bottom: 20px;
+    color: #5f6368;
+}
+
+/* create  */
+
+.create {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.create-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 30%;
+}
+.title-input {
+    width: 100%;
+    height: 15%;
+    border-radius: 5px;
+    border: 1px solid #5f6368;
+}
+
+.body-textarea {
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    border: 1px solid #5f6368;
+    resize: none;
+}
+
+.post-btn {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 6px;
+
+    width: 100%;
+    transition: 0.15s;
+    border: 2px solid #6e96bd;
+    color: #6e96bd;
+    background-color: #f0f3f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-btn:hover {
+    /* border: 2px solid #f0f3f8; */
+    color: #f0f3f8;
+    background-color: #6e96bd;
+}
+.post-btn-svg {
+    fill: #6e96bd;
+}
+
+.post-btn:hover .post-btn-svg {
+    fill: #f0f3f8;
+}
+
+.back-btn {
+    margin-top: 2%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    margin-left: 35px;
+    margin-top: 7.5em;
+    width: 105px;
+    transition: 0.15s;
+    border: 2px solid #6e96bd;
+    color: #6e96bd;
+    background-color: #f0f3f8;
+}
+.back-btn:hover {
+    /*  border: 2px solid #f0f3f8; */
+    color: #f0f3f8;
+    background-color: #6e96bd;
+}
+
+.back-btn-svg {
+    fill: #6e96bd;
+}
+.back-btn:hover .back-btn-svg {
+    fill: #f0f3f8;
+}
+
+.create-label {
+    color: #5f6368;
+}
+
+/* show */
+
+.show-post {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    color: #5f6368;
+}
+
+/* post index */
+
+.posts-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-post-btn {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    margin-left: 20px;
+    width: 105px;
+    transition: 0.15s;
+    border: 2px solid #6e96bd;
+    color: #6e96bd;
+    background-color: #f0f3f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-post-btn:hover {
+    /*  border: 2px solid #f0f3f8; */
+    color: #f0f3f8;
+    background-color: #6e96bd;
+}
+
+.create-btn-svg {
+    fill: #6e96bd;
+}
+.create-post-btn:hover .create-btn-svg {
+    fill: #f0f3f8;
+}
+
+.post-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #28c76f;
+}
+.posts-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.post-section-head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 77.3%;
+    margin-bottom: 3px;
+}
+
+.posts-loop {
+    /*  margin-left: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.posts-index-title {
+    text-decoration: none;
+    color: #5f6368;
+    text-align: left;
+}
+
+.post-loop-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 1%;
+    color: #5f6368;
+}
+
+.post-loop-cont {
+    /*  background-color: white; */
+    width: 75%;
+    line-height: 2;
+    border-radius: 5px;
+    /*   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    font-size: 18px;
+    border: 1px solid #5f6368;
+}
+
+.post-loop-header {
+    color: #6e96bd;
+    background-color: #f0f3f8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.icon-file {
+    margin-left: 12px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav */
+.nav {
+    /* background-color: #5c5c5c; */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    font-size: 1.25rem;
+    position: fixed;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+a {
+    text-decoration: none;
+    color: #5f6368;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+.nav-text {
+    font-size: 1.3rem;
+    color: #6e96bd;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-text h1 {
+    /*  background-color: #2d73e8; */
+    background-color: #f0f3f8;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #6e96bd;
+}
+.nav-item {
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-posts {
+    color: #6e96bd;
+}
+.item-posts:hover {
+    color: white;
+}
+.nav-item:hover .nav-item-child {
+    /* border: 1px solid #6e96bd; */
+    color: #6e96bd;
+    background-color: #f0f3f8;
+}
+.nav-item-child {
+    width: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 1.5em;
+}
+
+@media only screen and (max-width: 1000px) {
+    /*   .nav-text {
+        font-size: 0.7rem;
+        margin-left: 10px;
+    } */
+    .create-form {
+        width: 70%;
+    }
+
+    .post-section-head {
+        margin-bottom: 3px;
+        width: 75%;
+        margin-left: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .create-post-btn {
+        width: 98%;
+        margin-left: 0;
+    }
+    .create-anc {
+        width: 100%;
+    }
+    .back-btn {
+        margin-left: 9px;
+    }
+    .icon-file {
+        margin-left: 3px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .nav-text h1 {
+        width: 100%;
+        height: 1.9em;
+    }
+    .nav-text {
+        font-size: 0.7rem;
+        margin-left: 10px;
+    }
+}
